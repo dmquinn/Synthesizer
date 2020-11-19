@@ -1,0 +1,90 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+    </head>
+  <body>
+
+    
+<!-- <div class="background"></div> -->
+<div class="foreground"></div>
+<div class="midground"></div>
+<div class="background"></div>
+<div class="container"></div>
+
+<button class="sndOne"><p>Synth One</p></button>
+    <button class="sndTwo"><p>Synth Two</p></button>
+    <button class="chordBtn"><p>Chord</p></button>
+    <button class="arpeg"><p>Rythm</p></button>
+    <button class="stop"><p>Stop</p></button>
+ <div class="sliderContainer">
+
+  <span class="slider"></span>
+  <span class="slider2"></span>
+  <span class="slider3"></span>
+  <span class="slider4"></span>
+  <span class="slider5"></span>
+  <span class="slider6"></span>
+ </div>
+    <div class="piano">
+     
+        
+      </div>
+      <div class="grow"></div>
+      <button class="white-key C4-key C4-slider" ></button>
+      <button class="black-key Db4-key"></button>
+      <button class="white-key D4-key D4-slider"></button>
+      <button class="black-key Eb4-key"></button>
+      <button class="white-key E4-key"></button>
+      <button class="white-key F4-key"></button>
+      <button class="black-key Gb4-key"></button>
+      <button class="white-key G4-key"></button>
+      <button class="black-key Ab4-key"></button>
+      <button class="white-key A4-key"></button>
+      <button class="black-key Bb4-key"></button>
+      <button class="white-key B4-key"></button>
+      <button class="white-key C5-key"></button>
+      <button class="black-key Db5-key"></button>
+      <button class="white-key D5-key"></button>
+      <button class="black-key Eb5-key"></button>
+      <button class="white-key E5-key"></button>
+    </div>
+    <script src="https://cdn.rawgit.com/mohayonao/web-audio-api-shim/master/build/web-audio-api-shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/1.0.0/fetch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.68/Tone.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/0.12.0/Tone.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+<!-- C4Key.addEventListener("click", playC4);
+C4Key.addEventListener('ended', function() {
+  this.currentTime = 0;
+  this.setInterval = 300;r
+  this.play();
+}, false); -->
+
+<!-- const playSound = audio => {
+  const clone = audio.cloneNode();
+  setInterval(() => (audio.volume = 0.9), 20);
+  
+  audio.play();
+  setInterval(() => (audio.volume = 0.09), 20());
+  audio.play();
+  console.log("clone", audio.volume, SetInterval)
+};
+
+
+
+setInterval(() => (clone.volume = 0.8), 400);
+setInterval(() => (clone.volume = 0.6), 800);
+setInterval(() => (clone.volume = 0.4), 1200);
+setInterval(() => (clone.volume = 0.2), 1600);
+setTimeout(() => (clone.volume = 0), 2000); -->
